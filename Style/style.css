@@ -1,0 +1,70 @@
+body {
+    background-color: #1B1922;
+}
+
+header {
+    background-color: #1B1922;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+.logo {
+    width: 6%;
+    height: 5.5%;
+    margin: 1.25rem;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.75rem;
+    margin: 1.25rem;
+}
+
+
+
+section {
+    height: 100vh;
+}
+
+.home-page {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    Color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 9.375rem;
+    margin-top: 13%;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 6.25rem;
+    color: white;
+}
+
+span {
+    background: linear-gradient(0deg, #6a11cb 0%, #2575fc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#home-top {
+    margin-top: 1%;
+}
