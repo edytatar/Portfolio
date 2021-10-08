@@ -31,17 +31,12 @@ nav a {
     margin: 1.25rem;
 }
 
-
-
-section {
-    height: 100vh;
-}
-
 .home-page {
     display: flex;
     flex-direction: column;
     align-content: space-between;
     align-items: center;
+    height: 100vh;
 }
 
 h1 {
@@ -67,4 +62,46 @@ span {
 
 #home-top {
     margin-top: 1%;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 7.8125rem;
+    margin-left: 1.5rem;
+}
+
+#about {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.about-header {
+    margin-right: 5%;
+}
+
+.blurb {
+    width: 45%;
+    height: 35%;
+    background-color: white;
+    margin-top: 3%
+    
+}
+
+.blurb p {
+    width: 90%;
+    height: 75%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 2.5rem;
+    text-align: center;
+    vertical-align: center;
+    margin: 1.5rem;
+}
+
+.head-shot {
+    width: 20%;
+    height: 40%;
+    align-self: flex-start;
 }
