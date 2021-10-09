@@ -47,12 +47,14 @@ h1 {
     font-weight: 600;
     font-size: 937.5%;
     margin-top: 13%;
+    text-align: center;
 }
 
 h2 {
     font-weight: 500;
     font-size: 625%;
     color: white;
+    text-align: center;
 }
 
 span {
@@ -83,7 +85,7 @@ h3 {
 
 .blurb {
     width: 45%;
-    height: 30%;
+    height: fit-content;
     background-color: white;
     margin-top: 3%
 
@@ -217,7 +219,7 @@ footer {
 
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1500px) {
     nav a {
         font-size: 150%
     }
@@ -245,7 +247,10 @@ footer {
         margin: 0;
     }
     h3 {
-        font-size: 500%
+        font-size: 700%
+    }
+    .blurb {
+        height: fit-content;
     }
     .blurb p {
         font-size: 120%;
@@ -284,13 +289,18 @@ footer {
         font-size: 100%;
     }
     .port-link {
-        font-size: 95%;
+        font-size: 90%;
     }
     #contact {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
         height: 50vh
+    }
+    .contact-header {
+        width: 100%;
+        text-align: center;
     }
     .email-phone {
         font-size: 150%;
@@ -300,7 +310,7 @@ footer {
         font-size: 100%;
     }
     .footer {
-        font-size: 150%;
+        font-size: 125%;
     }
 
   }
@@ -311,13 +321,11 @@ footer {
       margin: 0 auto;
     }
     h1 {
-        font-size: 500%;
+        font-size: 700%;
     }
     h2 {
-        font-size: 300%;
-    }
-    .home-page {
-        height: 100vh;
+        font-size: 375%;
+        text-align: center;
     }
     .blurb p {
         font-size: 100%;
@@ -326,11 +334,53 @@ footer {
   
   /* Small smartphones - image placeholders change color */
   @media screen and (max-width: 576px) {
-    nav {
-      background-color: #8ac4ff;
-    }
+  nav {
+      justify-content: space-evenly;
+  }
+    nav a {
+       font-size: 100%;
+       margin: 5%;
+       
+   }
+   .home-page {
+       height: 100vh;
+   }
+    h1 {
+       font-size: 400%;
+   }
+   h2 {
+       font-size: 200%;
+   }
+   .head-shot {
+       align-self: center;
+   }
+   #about {
+       height: 75vh;
+   }
+   h3 {
+       font-size: 350%;
+   }
     .blurb {
         width: 45%;
-        height: 45%;
+        height: fit-content;
     }
-  }
+    #contact {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0;
+    }
+    .contact-header {
+        text-align: center;
+    }
+    .email-phone {
+        font-size: 100%;
+        margin: 0;
+    }
+    .info {
+        font-size: 100%;
+        margin: 0;
+    }
+    .move-left {
+        margin-right: 15%;
+    }
