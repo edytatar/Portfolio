@@ -6,397 +6,69 @@
 body {
     background-color: #1B1922;
 }
-/* Styling header */
-header {
-    background-color: #1B1922;
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-}
-/* Styling logo */
-.logo {
-    width: 6%;
-    height: 5.5%;
-    margin: 1.25rem;
-}
-/* Adding flex to nav */
-nav {
-    display: flex;
-}
-/* Styling nav links */
-nav a {
-    text-decoration: none;
+
+.nav-link {
     color: white;
-    font-weight: 500;
-    font-size: 175%;
-    margin: 1.25rem;
 }
-/* Styling nav links on hover */
-nav a:hover {
-    text-shadow: 1.5px 1.5px 0px rgba(255,255,255,0.3);
+
+
+h5 {
+    color: white;
 }
-/* Styling the section that holds h1 and h2 */
+
 .home-page {
-    display: flex;
-    flex-direction: column;
-    align-content: space-between;
-    align-items: center;
     height: 100vh;
+    width: 100vw;
 }
+
 /* Styleing "Hey There!" */
 h1 {
     Color: white;
     font-weight: 600;
-    font-size: 937.5%;
-    margin-top: 13%;
+    font-size: 3.4rem;
     text-align: center;
+    margin-bottom: 1rem;
 }
+
 /* Styling sentences under h1 */
 h2 {
     font-weight: 500;
-    font-size: 625%;
+    font-size: 1.7rem;
     color: white;
     text-align: center;
 }
+
 /* Adding purple/blue gradient to words in span */
 span {
     background: linear-gradient(0deg, #6a11cb 0%, #2575fc 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-/* Pushing h1 down to be more centered */
-#home-top {
-    margin-top: 1%;
-}
-/* Styling section headers */
+
 h3 {
     font-weight: 900;
-    font-size: 781.25%;
-    margin-left: 1.5rem;
+    font-size: 3.25rem;
+    margin-bottom: 1rem;
 }
-/* Styling about section */
-#about {
-    display: flex;
-    flex-direction: row;
-    height: 100vh;
-}
-/* Moving about header */
-.about-header {
-    margin-right: 5%;
-}
-/* Styling white box that holds p */
-.blurb {
-    width: 45%;
-    height: fit-content;
-    background-color: white;
-    margin-top: 3%
 
-}
-/* styling the p in the white box in about section */
-.blurb p {
-    font-weight: 300;
-    font-size: 250%;
-    margin: 1.5rem;
-    margin-top: 6%;
-    text-align: center;
-}
-/* Styling picture of me */
-.head-shot {
-    width: 20%;
-    height: 40%;
-    align-self: flex-start;
-}
-/* Styling portfolio sectio */
-#portfolio {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 100vh;
-}
-/* Styling the bo that holds the project */
-.portfolio {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-right: 2.5rem;
-    width: 60%;
-    height: 45%
-}
-/* Styling the projects */
-.projects {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    box-shadow:
-    2.8px 2.8px 2.7px rgba(0, 0, 0, 0.02),
-    6.7px 6.7px 6.3px rgba(0, 0, 0, 0.028),
-    12.5px 12.5px 11.5px rgba(0, 0, 0, 0.035),
-    22.3px 22.3px 19.7px rgba(0, 0, 0, 0.042),
-    41.8px 41.8px 35.4px rgba(0, 0, 0, 0.05),
-    100px 100px 80px rgba(0, 0, 0, 0.07);
 
+.about-me {
+    color: white;
+    margin-bottom: 1rem;
 }
-/* add box shadow when hovering over projects */
-.projects:hover {
-    box-shadow: 1.5px 1.5px 0px rgba(255,255,255,0.7);
-}
-/* Styling top project */
-#top {
-    width: 100%;
-    height: 50%;
-    background-color: white;
-    align-content: space-between;
-}
-/* Styling header in the top project */
-h4 {
-    font-weight: 500;
-    font-size: 250%;
-    text-align: center;
-}
-/* Styling p in the top project */
-#top p {
-    font-weight: 300;
-    font-size: 156.25%;
-    text-align: center;
-}
-/* Styling the bottom 2 project */
-.bottom {
-    width: 48%;
-    height: auto;
-    background-color: white;
-    flex-basis: auto;
-}
-/* Styling header for bottom 2 project */
+
 h5 {
-    font-weight: 500;
-    font-size: 187.5%;
-    margin: 0;
+    color: black
+}
+
+.card-body {
     text-align: center;
 }
-/* Styling p for bottom 2 project */
-.bottom p {
-    font-weight: 300;
-    font-size: 125%;
-    text-align: center;
+
+.card-text {
+    margin-bottom: 1rem;
 }
-/* Styling the links in each of the project sections */
-.port-link {
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 125%;
-    text-align: center;
-}
-/* add effect on hover */
-.port-link:hover {
-    text-shadow: 1.5px 1.5px 0px rgba(0,0,0,0.1);
-}
-/* Styling contact section */
-#contact {
-    display: flex;
-    justify-content: space-between;
-    align-items: center
-}
-/* Styling email: and phone: */
-.email-phone {
-    font-weight: 600;
-    font-size: 150%;
+
+li, ul {
     color: white;
-}
-/* Styling email and phone # */
-.info {
-    font-weight: 200;
-    font-size: 150%;
-    color: white;
-}
-/* centering the phone section a little */
-.move-left {
-    margin-right: 4%;
-}
-/* Styling footer */
-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-/* Styling links in footer */
-.footer {
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 187.5%;
-}
-/* styling links in footer on hover */
-.footer:hover {
-    text-shadow: 1.5px 1.5px 0px rgba(255,255,255,0.1);
-}
-
-
-/* Smaller computer screen */
-@media screen and (max-width: 1500px) {
-    nav a {
-        font-size: 150%
-    }
-    .home-page {
-        height: 100vh;
-    }
-    h1 {
-        margin-top: 25%;
-        font-size: 700%;
-    }
-    h2 {
-        font-size: 450%;
-        text-align: center;
-    }
-    #about {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        height: 50vh;
-    }
-    .about-header {
-        width: 100%;
-        text-align: center;
-        margin: 0;
-    }
-    h3 {
-        font-size: 700%
-    }
-    .blurb {
-        height: fit-content;
-    }
-    .blurb p {
-        font-size: 120%;
-        width: auto;
-        height: auto;
-    }
-    .head-shot {
-        width: auto;
-        height: 50%
-    }
-    #portfolio {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        height: fit-content
-    }
-    .portfolio {
-        text-align: center;
-        margin: 0;
-        padding: 0;
-
-    }
-    .projects {
-        margin: 1%;
-    }
-    h4 {
-        font-size: 150%;
-    }
-    #top p {
-        font-size: 110%;
-    }
-    h5 {
-        font-size: 125%;
-    }
-    .bottom p {
-        font-size: 100%;
-    }
-    .port-link {
-        font-size: 90%;
-    }
-    #contact {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        height: 50vh
-    }
-    .contact-header {
-        width: 100%;
-        text-align: center;
-    }
-    .email-phone {
-        font-size: 150%;
-    }
-    
-    .info {
-        font-size: 100%;
-    }
-    .footer {
-        font-size: 125%;
-    }
-
-  }
-
-/* Large smartphones/tablet */
-  @media screen and (max-width: 768px) {
-    nav {
-      margin: 0 auto;
-    }
-    h1 {
-        font-size: 700%;
-    }
-    h2 {
-        font-size: 375%;
-        text-align: center;
-    }
-    .blurb p {
-        font-size: 100%;
-    }
-  }
-  
-  /* Small smartphones - image placeholders change color */
-  @media screen and (max-width: 576px) {
-  nav {
-      justify-content: space-evenly;
-  }
-    nav a {
-       font-size: 100%;
-       margin: 5%;
-       
-   }
-   .home-page {
-       height: 100vh;
-   }
-    h1 {
-       font-size: 400%;
-   }
-   h2 {
-       font-size: 200%;
-   }
-   .head-shot {
-       align-self: center;
-   }
-   #about {
-       height: 75vh;
-   }
-   h3 {
-       font-size: 350%;
-   }
-    .blurb {
-        width: 45%;
-        height: fit-content;
-    }
-    #contact {
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin: 0;
-    }
-    .contact-header {
-        text-align: center;
-    }
-    .email-phone {
-        font-size: 100%;
-        margin: 0;
-    }
-    .info {
-        font-size: 100%;
-        margin: 0;
-    }
-    .move-left {
-        margin-right: 15%;
-    }
 }
