@@ -205,7 +205,7 @@ margin: 2%;
     }
 
     .about-me {
-        font-size: 1.5em;
+        font-size: 1.6em;
     }
 
     #image-me {
@@ -244,7 +244,7 @@ margin: 2%;
     
     .contact-text {
         color: white;
-        font-size: 1.25em;
+        font-size: 1.1em;
     }
 }
 
@@ -259,19 +259,19 @@ margin: 2%;
      }
 
     .hey-there {
-        font-size: 12em;
+        font-size: 10em;
     } 
 
     h2 {
-        font-size: 8em;
+        font-size: 6em;
     }
     
     h3 {
-    font-size: 10em;
+    font-size: 8em;
     }
 
      .about-me {
-         font-size: 2.5em;
+         font-size: 1.7em;
      }
 
      #image-me {
@@ -279,11 +279,11 @@ margin: 2%;
      }
 
      .card-title {
-         font-size: 3.5em;
+         font-size: 2.7em;
      }
 
      .card-text {
-         font-size: 1.7em;
+         font-size: 1.5em;
      }
 
      .contact-text {
