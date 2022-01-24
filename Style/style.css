@@ -23,6 +23,11 @@ nav {
     font-size: 1.2em;
 }
 
+.pure-menu-link:hover {
+    background: none;
+    color: gray;
+}
+
 .home-page {
     display: flex;
     justify-content: middle;
@@ -136,7 +141,6 @@ margin: 2%;
 }
 
 .card-link {
-    border: 1px solid;
     color: black;
     text-decoration: none;
     margin-bottom: 5%;
@@ -240,7 +244,7 @@ margin: 2%;
     
     .contact-text {
         color: white;
-        font-size: 1.4em;
+        font-size: 1.25em;
     }
 }
 
@@ -279,6 +283,10 @@ margin: 2%;
      }
 
      .card-text {
+         font-size: 1.7em;
+     }
+
+     .contact-text {
          font-size: 1.7em;
      }
 }
