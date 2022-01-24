@@ -159,7 +159,6 @@ margin: 2%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: 15%;
 }
 
 .contact {
@@ -196,7 +195,7 @@ margin: 2%;
     }
 
     h3 {
-        font-size:6em;
+        font-size: 6em;
     }
 
 
@@ -258,11 +257,11 @@ margin: 2%;
      }
 
     .hey-there {
-        font-size: 10em;
+        font-size: 6em;
     } 
 
     h2 {
-        font-size: 6em;
+        font-size: 4em;
     }
     
     h3 {
@@ -270,7 +269,7 @@ margin: 2%;
     }
 
      .about-me {
-         font-size: 1.7em;
+         font-size: 1.2em;
      }
 
      #image-me {
@@ -278,11 +277,11 @@ margin: 2%;
      }
 
      .card-title {
-         font-size: 2.7em;
+         font-size: 1.7em;
      }
 
      .card-text {
-         font-size: 1.5em;
+         font-size: 1.7em;
      }
 
      .contact-text {
