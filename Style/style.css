@@ -242,7 +242,7 @@ margin: 2%;
     
     .contact-text {
         color: white;
-        font-size: 1.2em;
+        font-size: 1em;
     }
 }
 
@@ -286,6 +286,7 @@ margin: 2%;
 
      .contact-text {
          font-size: 1.7em;
+         
      }
 }
 
