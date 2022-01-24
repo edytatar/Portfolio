@@ -7,25 +7,41 @@ body {
     background-color: #1B1922;
 }
 
-.nav-link {
-    color: white;
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
+#logo {
+    width: 70%;
+}
 
-h5 {
+.pure-menu-link {
     color: white;
+    font-size: 1.2em;
 }
 
 .home-page {
+    display: flex;
+    justify-content: middle;
+    align-items: center;
     height: 100vh;
     width: 100vw;
 }
 
+.container-home {
+    margin: 0 auto;
+    margin-bottom: 35%;
+}
+
 /* Styleing "Hey There!" */
-h1 {
-    Color: white;
+
+.hey-there {
+    color: white;
     font-weight: 600;
-    font-size: 3.4rem;
+    font-size: 4em;
     text-align: center;
     margin-bottom: 1rem;
 }
@@ -33,7 +49,7 @@ h1 {
 /* Styling sentences under h1 */
 h2 {
     font-weight: 500;
-    font-size: 1.7rem;
+    font-size: 1.9em;
     color: white;
     text-align: center;
 }
@@ -46,19 +62,69 @@ span {
 }
 
 h3 {
-    font-weight: 900;
-    font-size: 3.25rem;
-    margin-bottom: 1rem;
+   font-weight: 900;
+    font-size: 3.25em;
+    margin-bottom: .5em;
 }
 
+
+#about {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-left: 10%;
+}
+
+.about-me-section {
+    display: flex;
+    align-items: center;
+    justify-content: middle;
+}
 
 .about-me {
+    display: flex;
+    flex-direction: column;
     color: white;
-    margin-bottom: 1rem;
 }
 
-h5 {
-    color: black
+.about-me-skills {
+    color: white;
+    line-height: 2;
+}
+
+#image-me {
+    width: 40%
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: middle;
+    align-items: center;
+}
+
+.project-h3 {
+    text-align: center;
+}
+
+.projects {
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+margin: 2%;
+}
+
+.card {
+    background-color: white;
+    margin-bottom: 10%;
+}
+
+.card-img {
+    margin-bottom: 3%;
+}
+
+.card-title {
+    margin-bottom: 2%;
 }
 
 .card-body {
@@ -66,9 +132,155 @@ h5 {
 }
 
 .card-text {
-    margin-bottom: 1rem;
+    margin: 1rem;
 }
 
-li, ul {
-    color: white;
+.card-link {
+    border: 1px solid;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 5%;
 }
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-header {
+    text-align: center;
+}
+
+.contact-info-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 15%;
+}
+
+.contact {
+    display: flex;
+}
+
+.contact-text {
+    color: white;
+    font-size: 1.3em;
+}
+
+
+/* Large screen size */
+@media screen and (min-width: 64em) { 
+    #logo {
+        width: 100%;
+    }
+    
+    .pure-menu-link {
+        font-size: 1.8em;
+    }
+
+    .hey-there {
+        font-size: 7em;
+        margin-bottom: 0;
+    }
+    
+    h2 {
+        font-size: 5em;
+    }
+
+    .container-home {
+        margin-bottom: 20%;
+    }
+
+    h3 {
+        font-size:6em;
+    }
+
+
+    .about-me-section {
+        margin-bottom: 25%;
+    }
+
+    .about-me {
+        font-size: 1.5em;
+    }
+
+    #image-me {
+        width: 45%
+    }
+
+    .card {
+        margin-bottom: 0%;
+    }
+
+    .card-title {
+        font-size: 1.5em;
+    }
+
+    .card-text {
+        font-size: 1.2em;
+        line-height: 1.7;
+    }
+
+    .eventube {
+        margin-top: 5%;
+        margin-top: 10%;
+    }
+
+    .contact-info-section {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        margin-left: 3%;
+        margin-bottom: 5%;
+    }
+    
+    .contact {
+        display: flex;
+    }
+    
+    .contact-text {
+        color: white;
+        font-size: 1.4em;
+    }
+}
+
+/* Extra Large */
+@media screen and (min-width: 80em) {
+    #logo {
+        margin: 1%;
+    }
+    
+     .pure-menu-link {
+         font-size: 2.2em;
+     }
+
+    .hey-there {
+        font-size: 12em;
+    } 
+
+    h2 {
+        font-size: 8em;
+    }
+    
+    h3 {
+    font-size: 10em;
+    }
+
+     .about-me {
+         font-size: 2.5em;
+     }
+
+     #image-me {
+         width: 30%;
+     }
+
+     .card-title {
+         font-size: 3.5em;
+     }
+
+     .card-text {
+         font-size: 1.7em;
+     }
+}
+
+
